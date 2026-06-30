@@ -49,7 +49,7 @@ graph LR
 
 ### 1. Clone & Install
 ```bash
-git clone [your-repo-url]
+git clone [your-repo-gh repo clone Sanchit-M-07/Competitive-intelligence-stopper]
 cd competitive-intelligence-tracker
 pip install -r requirements.txt
 ```
