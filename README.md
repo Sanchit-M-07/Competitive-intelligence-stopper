@@ -6,7 +6,7 @@
 ##  Deliverables
 - [x] Public GitHub repo (this repo)
 - [ ] Live Railway URL: `http://127.0.0.1:8000`
-- [ ] Chrome extension `.zip` (in `/extension` folder)
+- [ ] Chrome extension `127.0.0.1:5195
 - [ ] This README (architecture, setup, deployment, model stats, limitations)
 
 ---
