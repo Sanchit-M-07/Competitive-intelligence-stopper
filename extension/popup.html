@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=300, height=200">
+    <title>Competitor Monitor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        #status {
+            margin-top: 10px;
+            font-size: 14px;
+            min-height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Monitor Competitor</h2>
+    <label for="url">Competitor URL:</label>
+    <input type="text" id="url" placeholder="https://example.com">
+    <label for="label">Label (optional):</label>
+    <input type="text" id="label" placeholder="e.g., Competitor A - Pricing Page">
+    <button id="submit">Start Monitoring</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+</body>
+</html>

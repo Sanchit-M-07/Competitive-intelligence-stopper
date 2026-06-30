@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Competitor Monitor",
+  "description": "Monitor competitors for changes and send alerts",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html"
+}
